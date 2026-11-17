@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventario de equipos informáticos | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html" class="active" aria-current="page">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DEL PROYECTO ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="proyectos.html">Proyectos</a> / Inventario de equipos informáticos</p>
+      <p class="eyebrow">Prácticas pre profesionales</p>
+      <h1>Inventario de equipos informáticos</h1>
+      <p>Sistema de inventario de equipos de cómputo desarrollado durante mis prácticas pre profesionales en Sedachimbote.</p>
+    </div>
+  </section>
+
+  <!-- ===== DETALLE ===== -->
+  <section class="section">
+    <div class="container detail">
+      <div class="detail__main">
+        <div class="detail__cover"><span class="project__code">INV</span></div>
+        <!-- Para mostrar una captura, reemplaza el <span> de arriba por <img src="img/captura.png" alt="..."> -->
+
+        <h2>Descripción del proyecto</h2>
+        <div class="detail__text">
+          <p>Durante mis prácticas pre profesionales en Sedachimbote (julio a diciembre de 2024) desarrollé un sistema web para el control del inventario de los equipos informáticos de la empresa.</p>
+          <p>El sistema se terminó en marzo de 2025 y se trabajó con la metodología ágil Scrum.</p>
+        </div>
+
+        <h2>Funcionalidades principales</h2>
+        <ul class="feature-list">
+            <li><strong>Registro de equipos</strong><span>Alta de computadoras, impresoras y otros equipos con sus características.</span></li>
+            <li><strong>Asignación</strong><span>Control de qué equipo está asignado a cada área o trabajador.</span></li>
+            <li><strong>Estado de los equipos</strong><span>Seguimiento del estado operativo de cada equipo.</span></li>
+            <li><strong>Búsqueda y reportes</strong><span>Consulta rápida del inventario y reportes para el área de TI.</span></li>
+        </ul>
+      </div>
+
+      <aside class="detail__aside">
+        <div class="card">
+          <h3>Ficha del proyecto</h3>
+          <dl class="spec">
+            <div><dt>Estado</dt><dd>Completado</dd></div>
+            <div><dt>Tipo</dt><dd>Prácticas pre profesionales</dd></div>
+            <div><dt>Año</dt><dd>2024 – 2025</dd></div>
+            <div><dt>Mi rol</dt><dd>Practicante — desarrollador</dd></div>
+          </dl>
+          <h4>Tecnologías</h4>
+          <ul class="stack"><li>Laravel</li><li>MySQL</li><li>Scrum</li></ul>
+          <a href="contacto.html" class="btn btn--primary btn--block">Consultar sobre este proyecto</a>
+          <a href="proyectos.html" class="btn btn--text btn--block">← Volver a todos los proyectos</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Navegación entre proyectos -->
+  <div class="container page-nav">
+    <a href="proyecto-control-viajes.html" class="prev"><small>← Proyecto anterior</small><strong>Control de viajes de tráiler</strong></a>
+    <a href="proyecto-servicecloud-ai.html" class="next"><small>Siguiente proyecto →</small><strong>ServiceCloud AI</strong></a>
+  </div>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/JeremyRO01" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

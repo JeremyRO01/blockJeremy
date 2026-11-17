@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventify | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html" class="active" aria-current="page">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DEL PROYECTO ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="proyectos.html">Proyectos</a> / Eventify</p>
+      <p class="eyebrow">Aplicación móvil Android</p>
+      <h1>Eventify</h1>
+      <p>Aplicación Android que reúne y organiza eventos de tecnología en una sola guía.</p>
+    </div>
+  </section>
+
+  <!-- ===== DETALLE ===== -->
+  <section class="section">
+    <div class="container detail">
+      <div class="detail__main">
+        <div class="detail__cover"><span class="project__code">EVT</span></div>
+        <!-- Para mostrar una captura, reemplaza el <span> de arriba por <img src="img/captura.png" alt="..."> -->
+
+        <h2>Descripción del proyecto</h2>
+        <div class="detail__text">
+          <p>Guía de eventos tecnológicos para Android: muestra la agenda, los ponentes y la ubicación de cada evento en una interfaz con Material Design.</p>
+          <p>Desarrollada para el curso de Aplicaciones Móviles con Kotlin y Android Studio.</p>
+        </div>
+
+        <h2>Funcionalidades principales</h2>
+        <ul class="feature-list">
+            <li><strong>Agenda de eventos</strong><span>Cronograma con el detalle de cada actividad.</span></li>
+            <li><strong>Ponentes</strong><span>Perfil de cada expositor con su información.</span></li>
+            <li><strong>Ubicación</strong><span>Mapa integrado con Google Maps.</span></li>
+            <li><strong>Favoritos</strong><span>El usuario guarda los eventos que le interesan.</span></li>
+            <li><strong>Registro con DNI</strong><span>Autenticación con Firebase y consulta de datos por DNI.</span></li>
+        </ul>
+      </div>
+
+      <aside class="detail__aside">
+        <div class="card">
+          <h3>Ficha del proyecto</h3>
+          <dl class="spec">
+            <div><dt>Estado</dt><dd>Proyecto académico</dd></div>
+            <div><dt>Tipo</dt><dd>Aplicación móvil Android</dd></div>
+            <div><dt>Año</dt><dd>2026</dd></div>
+            <div><dt>Mi rol</dt><dd>Desarrollador móvil</dd></div>
+          </dl>
+          <h4>Tecnologías</h4>
+          <ul class="stack"><li>Kotlin</li><li>Firestore</li><li>Google Maps</li><li>MVVM</li></ul>
+          <a href="contacto.html" class="btn btn--primary btn--block">Consultar sobre este proyecto</a>
+          <a href="proyectos.html" class="btn btn--text btn--block">← Volver a todos los proyectos</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Navegación entre proyectos -->
+  <div class="container page-nav">
+    <a href="proyecto-guardia.html" class="prev"><small>← Proyecto anterior</small><strong>GuardIA</strong></a>
+    <a href="proyecto-gestion-campos.html" class="next"><small>Siguiente proyecto →</small><strong>Gestión de campos agrícolas</strong></a>
+  </div>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/JeremyRO01" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

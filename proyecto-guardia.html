@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuardIA | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html" class="active" aria-current="page">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DEL PROYECTO ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="proyectos.html">Proyectos</a> / GuardIA</p>
+      <p class="eyebrow">Aplicación móvil Android</p>
+      <h1>GuardIA</h1>
+      <p>Aplicación Android de respuesta ante emergencias apoyada en inteligencia artificial.</p>
+    </div>
+  </section>
+
+  <!-- ===== DETALLE ===== -->
+  <section class="section">
+    <div class="container detail">
+      <div class="detail__main">
+        <div class="detail__cover"><span class="project__code">GIA</span></div>
+        <!-- Para mostrar una captura, reemplaza el <span> de arriba por <img src="img/captura.png" alt="..."> -->
+
+        <h2>Descripción del proyecto</h2>
+        <div class="detail__text">
+          <p>Aplicación Android pensada para los vecinos de Chimbote y Casma, que permite pedir ayuda ante una emergencia de forma rápida, incluso por voz.</p>
+          <p>Desarrollada para el curso de Aplicaciones Móviles con la metodología Mobile-D y arquitectura MVVM.</p>
+        </div>
+
+        <h2>Funcionalidades principales</h2>
+        <ul class="feature-list">
+            <li><strong>SOS por voz</strong><span>Activación de alerta de emergencia mediante comando de voz.</span></li>
+            <li><strong>Sensores del celular</strong><span>Uso combinado de GPS, acelerómetro, micrófono y cámara.</span></li>
+            <li><strong>Clasificación con IA</strong><span>Gemini clasifica el tipo de emergencia reportada.</span></li>
+            <li><strong>Funciona sin conexión</strong><span>Arquitectura offline-first con Firebase y Room.</span></li>
+            <li><strong>Verificación de identidad</strong><span>Validación del usuario con la cámara y ML Kit.</span></li>
+        </ul>
+      </div>
+
+      <aside class="detail__aside">
+        <div class="card">
+          <h3>Ficha del proyecto</h3>
+          <dl class="spec">
+            <div><dt>Estado</dt><dd>Proyecto académico</dd></div>
+            <div><dt>Tipo</dt><dd>Aplicación móvil Android</dd></div>
+            <div><dt>Año</dt><dd>2026</dd></div>
+            <div><dt>Mi rol</dt><dd>Desarrollador móvil</dd></div>
+          </dl>
+          <h4>Tecnologías</h4>
+          <ul class="stack"><li>Kotlin</li><li>Firebase</li><li>Room</li><li>Gemini AI</li><li>MVVM</li></ul>
+          <a href="contacto.html" class="btn btn--primary btn--block">Consultar sobre este proyecto</a>
+          <a href="proyectos.html" class="btn btn--text btn--block">← Volver a todos los proyectos</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Navegación entre proyectos -->
+  <div class="container page-nav">
+    <a href="proyecto-servicecloud-ai.html" class="prev"><small>← Proyecto anterior</small><strong>ServiceCloud AI</strong></a>
+    <a href="proyecto-eventify.html" class="next"><small>Siguiente proyecto →</small><strong>Eventify</strong></a>
+  </div>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/JeremyRO01" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

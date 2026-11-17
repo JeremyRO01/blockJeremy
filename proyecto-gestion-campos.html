@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de campos agrícolas | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html" class="active" aria-current="page">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DEL PROYECTO ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="proyectos.html">Proyectos</a> / Gestión de campos agrícolas</p>
+      <p class="eyebrow">Sistema web empresarial</p>
+      <h1>Gestión de campos agrícolas</h1>
+      <p>Sistema para la gestión de operaciones de campo en una empresa agrícola, desplegado en la nube.</p>
+    </div>
+  </section>
+
+  <!-- ===== DETALLE ===== -->
+  <section class="section">
+    <div class="container detail">
+      <div class="detail__main">
+        <div class="detail__cover"><span class="project__code">GC</span></div>
+        <!-- Para mostrar una captura, reemplaza el <span> de arriba por <img src="img/captura.png" alt="..."> -->
+
+        <h2>Descripción del proyecto</h2>
+        <div class="detail__text">
+          <p>Plataforma para gestionar las operaciones diarias de campo de una empresa agrícola, desplegada en Railway con despliegue automático desde GitHub.</p>
+          <p>Además del sistema, he trabajado en su infraestructura: contenedores, copias de seguridad automáticas y automatizaciones.</p>
+        </div>
+
+        <h2>Funcionalidades principales</h2>
+        <ul class="feature-list">
+            <li><strong>Compras e inventario</strong><span>Registro de compras y control de existencias.</span></li>
+            <li><strong>Salidas de almacén</strong><span>Control de los retiros de insumos y materiales.</span></li>
+            <li><strong>Planillas</strong><span>Gestión de pagos al personal de campo.</span></li>
+            <li><strong>Actividades</strong><span>Registro de las labores realizadas en cada campo.</span></li>
+            <li><strong>Respaldos</strong><span>Copias de seguridad automáticas de la base de datos.</span></li>
+        </ul>
+      </div>
+
+      <aside class="detail__aside">
+        <div class="card">
+          <h3>Ficha del proyecto</h3>
+          <dl class="spec">
+            <div><dt>Estado</dt><dd>En producción</dd></div>
+            <div><dt>Tipo</dt><dd>Sistema web empresarial</dd></div>
+            <div><dt>Año</dt><dd>2025 – 2026</dd></div>
+            <div><dt>Mi rol</dt><dd>Desarrollador full-stack</dd></div>
+          </dl>
+          <h4>Tecnologías</h4>
+          <ul class="stack"><li>Laravel</li><li>MySQL</li><li>Railway</li><li>GitHub</li></ul>
+          <a href="contacto.html" class="btn btn--primary btn--block">Consultar sobre este proyecto</a>
+          <a href="proyectos.html" class="btn btn--text btn--block">← Volver a todos los proyectos</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Navegación entre proyectos -->
+  <div class="container page-nav">
+    <a href="proyecto-eventify.html" class="prev"><small>← Proyecto anterior</small><strong>Eventify</strong></a>
+    <a href="proyecto-erp-agropecuaria.html" class="next"><small>Siguiente proyecto →</small><strong>ERP para tienda de insumos agrícolas</strong></a>
+  </div>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/JeremyRO01" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
