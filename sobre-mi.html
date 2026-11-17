@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html" class="active" aria-current="page">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DE LA PÁGINA ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / Sobre mí</p>
+      <p class="eyebrow">Perfil personal</p>
+      <h1>Sobre mí</h1>
+      <p>Más allá del código: quién soy, qué me gusta y los lugares y sabores que forman parte de mi vida.</p>
+    </div>
+  </section>
+
+  <!-- ===== PRESENTACIÓN ===== -->
+  <section class="section">
+    <div class="container about-intro">
+      <div class="photo-frame photo-frame--small">
+        <img src="img/foto-perfil.jpg" alt="Fotografía de Jeremy Rodríguez">
+      </div>
+      <div>
+        <h2 style="margin-bottom:1rem;">Hola, soy Jeremy</h2>
+        <p>
+          Soy de la región Áncash, Perú, y vivo entre Chimbote y Casma. Estudio Ingeniería de Sistemas
+          e Informática en la Universidad Nacional del Santa y trabajo como desarrollador full-stack.
+        </p>
+        <p>
+          Me gusta construir sistemas que resuelvan problemas reales de las personas y los negocios
+          de mi región. Fuera de la programación, disfruto de las motos, los proyectos en casa y
+          pasar tiempo con mi familia.
+        </p>
+        <dl class="facts">
+          <div><dt>Nombre</dt><dd>Jeremy Aldair Rodríguez Obregón</dd></div>
+          <div><dt>Ubicación</dt><dd>Chimbote – Casma, Áncash</dd></div>
+          <div><dt>Ocupación</dt><dd>Desarrollador full-stack</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERESES ===== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <p class="eyebrow">Pasatiempos</p>
+        <h2>Mis intereses</h2>
+      </div>
+      <div class="grid grid--4">
+        <div class="card"><div class="badge-icon">&lt;/&gt;</div><h3>Tecnología</h3><p>Programación, servidores y todo lo relacionado con la nube.</p></div>
+        <div class="card"><div class="badge-icon">M</div><h3>Motos</h3><p>Me gusta el mundo de las motos y darle mantenimiento a la mía.</p></div>
+        <div class="card"><div class="badge-icon">C</div><h3>Seguridad</h3><p>Instalación y configuración de sistemas de cámaras de vigilancia.</p></div>
+        <div class="card"><div class="badge-icon">V</div><h3>Videojuegos</h3><p>Juegos en línea para compartir partidas con amigos.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LUGARES FAVORITOS ===== -->
+  <!-- Edita los nombres y descripciones. Para poner una foto, reemplaza el <span> dentro de
+       .place__img por: <img src="img/nombre-del-lugar.jpg" alt="..."> -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="eyebrow">Mis rincones</p>
+        <h2>Lugares favoritos</h2>
+        <p class="section__lead">Lugares que me gusta visitar y que siempre recomiendo.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card place">
+          <div class="place__img"><span class="place__tag">Casma</span></div>
+          <div class="place__body"><h3>Playas de Casma</h3><p>Ideales para desconectarse un fin de semana frente al mar.</p></div>
+        </article>
+        <article class="card place">
+          <div class="place__img"><span class="place__tag">Chimbote</span></div>
+          <div class="place__body"><h3>Malecón de Chimbote</h3><p>Un buen lugar para caminar al atardecer y despejar la mente.</p></div>
+        </article>
+        <article class="card place">
+          <div class="place__img"><span class="place__tag">Casma</span></div>
+          <div class="place__body"><h3>Caserío de Huancamuña</h3><p>Una comunidad a la que me unen lazos muy especiales.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMIDAS FAVORITAS ===== -->
+  <!-- Edita la lista con tus platos favoritos -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="grid grid--2" style="align-items:start; gap:3rem;">
+        <div class="section__header">
+          <p class="eyebrow">Gastronomía</p>
+          <h2>Comidas favoritas</h2>
+          <p class="section__lead">La comida peruana es parte de quien soy. Estos son los platos que nunca rechazo.</p>
+        </div>
+        <ul class="food-list">
+          <li><strong>Ceviche</strong><span>Pescado fresco de Chimbote</span></li>
+          <li><strong>Arroz con mariscos</strong><span>Clásico de la costa</span></li>
+          <li><strong>Lomo saltado</strong><span>Infaltable en casa</span></li>
+          <li><strong>Pachamanca</strong><span>Para las reuniones familiares</span></li>
+          <li><strong>Chicha morada</strong><span>La bebida de siempre</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Navegación entre páginas -->
+  <div class="container page-nav">
+    <a href="index.html" class="prev"><small>← Anterior</small><strong>Inicio</strong></a>
+    <a href="educacion.html" class="next"><small>Siguiente →</small><strong>Educación</strong></a>
+  </div>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

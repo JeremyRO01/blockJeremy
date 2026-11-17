@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educación | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html" class="active" aria-current="page">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DE LA PÁGINA ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / Educación</p>
+      <p class="eyebrow">Formación académica</p>
+      <h1>Educación</h1>
+      <p>Mi recorrido académico: desde la educación básica hasta la formación profesional en ingeniería.</p>
+    </div>
+  </section>
+
+  <!-- ===== LÍNEA DE TIEMPO ===== -->
+  <!-- Puedes agregar los años de cada etapa en el elemento .timeline__level -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="eyebrow">Trayectoria</p>
+        <h2>Mi recorrido académico</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="card">
+            <p class="timeline__level">Educación básica regular</p>
+            <h3>Educación primaria</h3>
+            <p class="timeline__place">Colegio César Vallejo</p>
+            <p>Aquí di mis primeros pasos en el aprendizaje y formé las bases de mi educación.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="card">
+            <p class="timeline__level">Educación básica regular</p>
+            <h3>Educación secundaria</h3>
+            <p class="timeline__place">Colegio César Vallejo</p>
+            <p>Culminé mi educación básica en el mismo colegio, donde descubrí mi interés por la tecnología y las computadoras.</p>
+          </div>
+        </div>
+        <div class="timeline__item timeline__item--current">
+          <div class="card">
+            <p class="timeline__level">Educación universitaria · En curso</p>
+            <h3>Ingeniería de Sistemas e Informática</h3>
+            <p class="timeline__place">Universidad Nacional del Santa (UNS) — Nuevo Chimbote</p>
+            <p>Escuela Profesional de Ingeniería de Sistemas e Informática, Facultad de Ingeniería. Actualmente curso los últimos ciclos de la carrera.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="card">
+            <p class="timeline__level">Experiencia formativa</p>
+            <h3>Prácticas pre profesionales</h3>
+            <p class="timeline__place">Sedachimbote</p>
+            <p>Desarrollo de un sistema de inventario de equipos informáticos para la empresa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== UNIVERSIDAD ===== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <p class="eyebrow">Mi universidad</p>
+        <h2>Universidad Nacional del Santa</h2>
+        <p class="section__lead">
+          Ubicada en Nuevo Chimbote, la UNS es donde me estoy formando como ingeniero. Algunos de los
+          cursos que más han marcado mi formación:
+        </p>
+      </div>
+      <div class="grid grid--4">
+        <div class="card"><h3>Aplicaciones Móviles</h3><p>Desarrollo de apps Android como GuardIA y Eventify.</p></div>
+        <div class="card"><h3>Seguridad de la Información</h3><p>Auditorías, análisis de vulnerabilidades y buenas prácticas.</p></div>
+        <div class="card"><h3>Centro de Datos</h3><p>Diseño y administración de infraestructura de centros de datos.</p></div>
+        <div class="card"><h3>Computación en la Nube</h3><p>Despliegue de aplicaciones en distintos proveedores cloud.</p></div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Navegación entre páginas -->
+  <div class="container page-nav">
+    <a href="sobre-mi.html" class="prev"><small>← Anterior</small><strong>Sobre mí</strong></a>
+    <a href="familia.html" class="next"><small>Siguiente →</small><strong>Familia</strong></a>
+  </div>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

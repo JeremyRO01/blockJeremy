@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Familia | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html" class="active" aria-current="page">Familia</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DE LA PÁGINA ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / Familia</p>
+      <p class="eyebrow">Lo más importante</p>
+      <h1>Mi familia</h1>
+      <p>Mi familia es mi mayor motivación. Gracias a su apoyo he llegado hasta donde estoy.</p>
+    </div>
+  </section>
+
+  <!-- ===== MIEMBROS ===== -->
+  <!-- Para poner fotos: guarda la imagen en img/ y cambia la letra dentro de .family__photo por
+       <img src="img/mama.jpg" alt="Mi mamá">. Cambia también "Nombre" por el nombre real. -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header" style="text-align:center;">
+        <p class="eyebrow">Somos cuatro</p>
+        <h2>Las personas que más quiero</h2>
+      </div>
+      <div class="grid grid--3">
+        <article class="card family">
+          <div class="family__photo">M</div>
+          <p class="family__role">Mi mamá</p>
+          <h3>Nombre de mi mamá</h3>
+          <p>Mi primer ejemplo de esfuerzo y dedicación. Siempre está pendiente de mí y me impulsa a seguir adelante.</p>
+        </article>
+        <article class="card family">
+          <div class="family__photo">P</div>
+          <p class="family__role">Mi papá</p>
+          <h3>Nombre de mi papá</h3>
+          <p>Me enseñó el valor del trabajo y la responsabilidad. Su apoyo ha sido clave en mi carrera.</p>
+        </article>
+        <article class="card family">
+          <div class="family__photo">H</div>
+          <p class="family__role">Mi hermano</p>
+          <h3>Nombre de mi hermano</h3>
+          <p>Mi compañero de toda la vida, con quien comparto momentos, bromas y buenos recuerdos.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FRASE ===== -->
+  <section class="section section--alt">
+    <div class="container">
+      <p class="quote">“Todo lo que he logrado y lo que aún me falta lograr se lo debo al apoyo incondicional de mi familia.”</p>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Navegación entre páginas -->
+  <div class="container page-nav">
+    <a href="educacion.html" class="prev"><small>← Anterior</small><strong>Educación</strong></a>
+    <a href="proyectos.html" class="next"><small>Siguiente →</small><strong>Proyectos</strong></a>
+  </div>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

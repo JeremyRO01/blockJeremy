@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos | Jeremy Rodríguez</title>
+  <meta name="description" content="Blog personal y portafolio de Jeremy Rodríguez, desarrollador full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Jeremy Rodríguez</a>
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="familia.html">Familia</a></li>
+          <li><a href="proyectos.html" class="active" aria-current="page">Proyectos</a></li>
+          <li><a href="contacto.html" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ===== CABECERA DE LA PÁGINA ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / Proyectos</p>
+      <p class="eyebrow">Portafolio</p>
+      <h1>Proyectos de programación</h1>
+      <p>Una selección de sistemas web y aplicaciones móviles que he diseñado y desarrollado.</p>
+    </div>
+  </section>
+
+  <!-- ===== PROYECTOS ===== -->
+  <section class="section">
+    <div class="container">
+      <article class="project project--featured">
+        <div class="project__thumb">
+          <!-- Para usar una captura: <img src="img/erp.png" alt="Captura del ERP"> -->
+          <span class="project__code">ERP</span>
+        </div>
+        <div class="project__body">
+          <span class="project__status">Proyecto destacado</span>
+          <h3>ERP para tienda de insumos agrícolas</h3>
+          <p>Sistema de gestión empresarial para una agropecuaria: ventas, inventario, compras y un módulo contable integrado. Desplegado en servidor propio con contenedores.</p>
+          <ul class="stack"><li>Laravel</li><li>PostgreSQL</li><li>Docker</li></ul>
+          <div class="project__links"><a href="#">Ver detalles →</a><a href="#">Código fuente →</a></div>
+        </div>
+      </article>
+      <div class="grid grid--3">
+        <article class="project">
+          <div class="project__thumb project__thumb--small"><span class="project__code">TRN</span></div>
+          <div class="project__body">
+            <h3>Control de viajes de tráiler</h3>
+            <p>Registro digital de fletes y viajes de transporte de fruta, en reemplazo del control manual en cuaderno.</p>
+            <ul class="stack"><li>Laravel</li><li>MySQL</li></ul>
+            <div class="project__links"><a href="#">Ver detalles →</a></div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project__thumb project__thumb--small"><span class="project__code">INV</span></div>
+          <div class="project__body">
+            <h3>Inventario de equipos informáticos</h3>
+            <p>Sistema de inventario de equipos de cómputo desarrollado durante mis prácticas pre profesionales en Sedachimbote.</p>
+            <ul class="stack"><li>Laravel</li><li>MySQL</li></ul>
+            <div class="project__links"><a href="#">Ver detalles →</a></div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project__thumb project__thumb--small"><span class="project__code">SC</span></div>
+          <div class="project__body">
+            <h3>ServiceCloud AI</h3>
+            <p>Plataforma SaaS de mesa de ayuda (ITSM) con asistencia de IA, desplegada y probada en varios proveedores de nube.</p>
+            <ul class="stack"><li>SaaS</li><li>IA</li><li>Multi-cloud</li></ul>
+            <div class="project__links"><a href="#">Ver detalles →</a></div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project__thumb project__thumb--small"><span class="project__code">GIA</span></div>
+          <div class="project__body">
+            <h3>GuardIA</h3>
+            <p>Aplicación Android de respuesta ante emergencias apoyada en inteligencia artificial.</p>
+            <ul class="stack"><li>Android</li><li>IA</li></ul>
+            <div class="project__links"><a href="#">Ver detalles →</a></div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project__thumb project__thumb--small"><span class="project__code">EVT</span></div>
+          <div class="project__body">
+            <h3>Eventify</h3>
+            <p>Aplicación Android que reúne y organiza eventos de tecnología en una sola guía.</p>
+            <ul class="stack"><li>Android</li></ul>
+            <div class="project__links"><a href="#">Ver detalles →</a></div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project__thumb project__thumb--small"><span class="project__code">GC</span></div>
+          <div class="project__body">
+            <h3>Gestión de campos agrícolas</h3>
+            <p>Sistema para la gestión de operaciones de campo en una empresa agrícola, desplegado en la nube.</p>
+            <ul class="stack"><li>Laravel</li><li>Railway</li></ul>
+            <div class="project__links"><a href="#">Ver detalles →</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES ===== -->
+  <section class="section section--alt" id="habilidades">
+    <div class="container">
+      <div class="section__header">
+        <p class="eyebrow">Competencias</p>
+        <h2>Habilidades técnicas</h2>
+      </div>
+      <div class="grid grid--4">
+        <div class="skill"><h3>Backend</h3><p>PHP, Laravel, APIs REST, autenticación y control de roles.</p></div>
+        <div class="skill"><h3>Bases de datos</h3><p>MySQL, PostgreSQL, modelado relacional y optimización de consultas.</p></div>
+        <div class="skill"><h3>Cloud y DevOps</h3><p>Docker, Railway, AWS, Cloudflare y administración de servidores Ubuntu.</p></div>
+        <div class="skill"><h3>Móvil y Frontend</h3><p>Aplicaciones Android, HTML, CSS y JavaScript.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LLAMADA A LA ACCIÓN ===== -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>¿Tiene un proyecto en mente?</h2>
+      <p>Estoy disponible para colaborar en el desarrollo de sistemas web a medida.</p>
+      <div class="cta-band__links">
+        <a href="contacto.html" class="btn btn--light">Contáctame</a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Navegación entre páginas -->
+  <div class="container page-nav">
+    <a href="familia.html" class="prev"><small>← Anterior</small><strong>Familia</strong></a>
+    <a href="contacto.html" class="next"><small>Siguiente →</small><strong>Contacto</strong></a>
+  </div>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Jeremy Rodríguez Obregón</h4>
+          <p>Desarrollador full-stack y estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa.</p>
+        </div>
+        <div>
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="familia.html">Familia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <ul>
+            <!-- Reemplaza con tus enlaces reales -->
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li><a href="mailto:tucorreo@ejemplo.com">Correo</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Jeremy Rodríguez Obregón. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
